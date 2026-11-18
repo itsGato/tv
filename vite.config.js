@@ -49,7 +49,7 @@ export default defineConfig({
     }),
   ],
   build: {
-    target: ['es2020', 'chrome >= 70', 'safari >= 13'],
+    target: ['es2020', 'chrome70', 'safari13'],
     chunkSizeWarningLimit: 1600,
     rollupOptions: {
       output: {
